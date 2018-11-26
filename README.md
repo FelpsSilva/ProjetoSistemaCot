@@ -1,0 +1,1 @@
+Projeto GRUD academico de uma empresa ficticia do ramo farmacêutico, onde é possivel cadastrar usuarios, fornecedores, pacientes e medicamentos, mediante acesso via tela de login
