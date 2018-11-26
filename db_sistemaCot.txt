@@ -1,0 +1,26 @@
+CRIAÇÃO DO BANCO DE DADOS
+--------------------------
+
+create db_sistemacot
+
+use db_sistemacot
+
+create table usuario(
+id int auto_increment primary key,
+nome_usuario varchar (45) not null,
+senha varchar (45) not null);
+
+create table paciente (
+id int auto_increment primary key,
+nome_paciente varchar (45) not null,
+cpf varchar (15) not null);
+
+create table fornecedor (
+id int auto_increment primary key,
+rc_fornecedor varchar (45) not null,
+cnpj varchar (30) not null);
+
+create table medicamento (
+id int auto_increment primary key,
+nome_medicamento varchar (45) not null,
+tratamento varchar (100),
